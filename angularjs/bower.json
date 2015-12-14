@@ -1,0 +1,26 @@
+{
+  "name": "angularjs",
+  "homepage": "https://github.com/henryqrm/studies",
+  "description": "Estudos referente ao angulaJS",
+  "main": "main.js",
+  "moduleType": [
+    "node"
+  ],
+  "authors": [
+    "HenryQRM"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#~1.4.8",
+    "bootstrap-ui": "~0.14.3",
+    "bootstrap": "~3.3.6"
+  }
+}
