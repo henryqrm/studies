@@ -40,11 +40,17 @@
     "time-grunt": "^1.0.0",
     "jshint-stylish": "^1.0.0",
     "grunt-cli": "0.1.6",
-    "bower": "~1.7.1"
+    "bower": "~1.7.1",
+    "grunt-env": "~0.4.1",
+    "grunt-injector": "^0.5.4"
   },
   "scripts": {
     "start": "node server/app.js",
     "test": "grunt test",
     "update-webdriver": "node node_modules/grunt-protractor-runner/node_modules/protractor/bin/webdriver-manager update"
+  },
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3"
   }
 }
