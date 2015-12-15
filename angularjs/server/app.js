@@ -1,17 +1,20 @@
-var express = require('express')
-var bodyParser = require('body-parser')
+var express = require('express');
+var bodyParser = require('body-parser');
 
-var app = express()
-app.use(bodyParser.json())
+var app = express();
+app.use(bodyParser.json());
 
-app.get('/api/posts', function (req, res) {
+
+
+
+app.get('/api/token', function (req, res) {
   res.json([
     {
-      username: 'dickeyxxx',
-      body: 'node rocks!'
+      token: '0123212',
+      expires: '01012016'
     }
-  ])
-})
+]);
+});
 
 app.post('/', function(request, response){
     console.log(request.body.user.name);
@@ -19,5 +22,5 @@ app.post('/', function(request, response){
 });
 
 app.listen(3000, function () {
-  console.log('Server listening on', 3000)
-})
+  console.log('Server listening on', 3000);
+});

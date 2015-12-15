@@ -42,7 +42,9 @@
     "grunt-cli": "0.1.6",
     "bower": "~1.7.1",
     "grunt-env": "~0.4.1",
-    "grunt-injector": "^0.5.4"
+    "grunt-injector": "^0.5.4",
+    "karma-babel-preprocessor": "^5.2.1",
+    "grunt-babel": "~5.0.0"
   },
   "scripts": {
     "start": "node server/app.js",
