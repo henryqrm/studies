@@ -1,7 +1,8 @@
 'use strict';
 angular.module('angular', [
 	'ui.router',
-	'angular.acess'
+	'angular.acess',
+	'angular.shared'
 ])
 .config(['$stateProvider','$urlRouterProvider',
 	function ($stateProvider, $urlRouterProvider) {
