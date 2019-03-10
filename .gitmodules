@@ -1,0 +1,3 @@
+[submodule "hands-on/simple-cli-crud-ts"]
+	path = hands-on/simple-cli-crud-ts
+	url = git@github.com:henryqrm/studies-simple-cli-crud.git
